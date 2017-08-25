@@ -1,23 +1,13 @@
 #!/bin/sh
 
-# Usage ./deploy_sm.sh {version from gcp}
+# Usage ./deploy.sh {version from gcp, e.g. 0-1}
 
 INDEX_YAML="index.yaml"
-CRON_YAML="cron.yaml"
 QUEUE_YAML="queue.yaml"
 
 rollback(){
 	echo -e "\nRolling back.....\n"
 	python APPCFG rollback --oauth2 $(dirname $0)
-}
-
-check_server_tests(){
-	./run_tests.sh
-	RESULT=$?
-	if [ $RESULT -ne 0 ]; then
-		echo -e "\nSERVER UNIT TESTS FAILED!\n"
-		cancel_deploy
-	fi
 }
 
 check_js_tests(){
@@ -53,7 +43,6 @@ install_npm_dependencies(){
 deploy(){
 	install_npm_dependencies
 	check_indexes
-	check_server_tests
 	# check_js_tests
 	gulp production
 	sudo gcloud config configurations activate mindgraph
@@ -82,7 +71,7 @@ if [[ $version =~ ^[0-9hf\-]+[a-z]?$ ]]; then
 	production_version=true
 	env="production"
 	# if deploying to production, it is compulsory to deploy all services
-	deploy_configs="app.yaml $INDEX_YAML $CRON_YAML $QUEUE_YAML"
+	deploy_configs="app.yaml $INDEX_YAML $QUEUE_YAML"
 else
 	# cron/index/queue must be specified explicitly
 	env="staging"

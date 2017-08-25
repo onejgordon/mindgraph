@@ -1,0 +1,2 @@
+# Install with pip install -t lib -r requirements.txt (into lib/)
+google_api_python_client==1.5.1

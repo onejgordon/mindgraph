@@ -1,7 +1,9 @@
 *.pyc
 *.DS_Store
 js/react/build/*
+package-lock.json
 update.sh
 templates/build/*
 node_modules/*
 dist/*
+lib/*
