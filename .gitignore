@@ -1,0 +1,7 @@
+*.pyc
+*.DS_Store
+js/react/build/*
+update.sh
+templates/build/*
+node_modules/*
+dist/*

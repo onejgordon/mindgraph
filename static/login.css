@@ -1,0 +1,120 @@
+body.login {
+    /*background: url(/images/public/login.jpg);*/
+    background-image: radial-gradient(#2C73C7, #1E4E86);
+    background-attachment: fixed;
+    background-position: 50% 50%; /* or: center center */
+    background-size: cover;       /* CSS3 */
+    color: white;
+    text-shadow: 0px 1px rgba(0,0,0,0.5);
+}
+
+#login a, #login a:link, #login a:visited {
+    text-decoration: underline;
+}
+
+a.circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    background: rgba(255,255,255,1);
+    margin: 5px;
+}
+
+a.circle.off {
+    background: rgba(255,255,255,0.3);
+}
+
+a.circle span.icon_matrix {
+    margin: 15px;
+}
+
+/* LOGIN PAGE */
+
+.row h4 {
+    color: white;
+}
+
+div.row {
+    padding-top: 20px;
+}
+
+div._login {
+    display: block;
+    width: 480px;
+}
+
+form p.lead {
+    text-align: center;
+}
+
+._login .form-group.merged input {
+    margin: 0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+._login .form-group.merged input:first-child {
+    -webkit-border-top-left-radius:9px;
+    -moz-border-radius-topleft:9px;
+    -webkit-border-top-right-radius:9px;
+    -moz-border-radius-topright:9px;
+}
+
+._login .form-group.merged input:last-child {
+    border-top: none;
+    -webkit-border-bottom-left-radius:9px;
+    -moz-border-radius-bottomleft:9px;
+    -webkit-border-bottom-right-radius:9px;
+    -moz-border-radius-bottomright:9px;
+}
+
+button#login {
+    -webkit-transition:all 200ms ease-out 0s;
+    transition:all 200ms ease-out 0s;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+button#login:hover, button#login:focus {
+    background: rgba(0,0,0,0.3);
+}
+
+button#login:active {
+    background: rgba(0,0,0,0.4);
+}
+
+#msg {
+
+}
+
+#footer {
+    border: none;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    padding: 0 0 0 20px;
+    bottom: 0px;
+    text-shadow: none;
+}
+
+a.white:link, a.white:visited, a.white:active {
+    opacity: 0.5;
+    text-decoration: none;
+    color: white;
+}
+
+a.white:hover {
+    opacity: 1.0;
+}
+
+form[name=forgot] {
+    margin-top: 10px;
+}

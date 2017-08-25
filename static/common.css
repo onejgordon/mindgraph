@@ -1,0 +1,70 @@
+html {
+    min-height: 100%;
+    -webkit-font-smoothing:antialiased;
+}
+
+h1, h2, h3, p {
+
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* Widgets & React Components */
+
+.loadStatus {
+    margin: 50px auto;
+    width: 200px;
+    text-shadow: 0px 1px 0px white;
+}
+
+.loadStatus .message, .empty {
+    display: block;
+    text-align: center;
+    color: #D2D2D4;
+    font-size: 23px;
+    text-shadow: 0px 1px 0px white;
+}
+
+.loadStatus .holder {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.loadStatus .nil {
+    display: block;
+    margin: 0 auto;
+}
+
+.loader.large {
+    background-image: url(/images/puff.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.loader.large.hidden {
+    display: none;
+}
+
+#footer {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    min-height: 300px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+{
+  "elements": {
+    "edges": [
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "pp",
+          "name": "Predictive Processing",
+          "link": "https://www.youtube.com/watch?v=d6EawXopUC4"
+        }
+      },
+      {
+        "data": {
+          "id": "cpp",
+          "name": "Conservative Predictive Processing",
+          "link": "https://www.youtube.com/watch?v=d6EawXopUC4"
+        }
+      },
+      {
+        "data": {
+          "id": "rpp",
+          "name": "Radical Predictive Processing"
+        }
+      },
+      {
+        "data": {
+          "id": "htm",
+          "name": "Hierarchical Temporal Memory"
+        }
+      }
+
+    ]
+  },
+  "layout": {
+    "name": "grid",
+    "padding": 10
+  }
+}

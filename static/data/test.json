@@ -1,0 +1,46 @@
+{
+  "elements": {
+    "edges": [
+      {
+        "data": {
+          "id": "1",
+          "source": "a",
+          "target": "b"
+        }
+      },
+      {
+        "data": {
+          "id": "2",
+          "source": "a",
+          "target": "c"
+        }
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "a",
+          "name": "A"
+        }
+      },
+      {
+        "data": {
+          "id": "b",
+          "name": "B"
+        }
+      },
+      {
+        "data": {
+          "id": "c",
+          "name": "C"
+        }
+      },
+      {
+        "data": {
+          "id": "d",
+          "name": "D"
+        }
+      }
+    ]
+  }
+}

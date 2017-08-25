@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    color: white;
+}
+
+#top {
+    background: rgba(0,0,0,0.4);
+    padding: 7px;
+}
+
+#top a:link, #top a:visited, #top a:hover {
+    color: white;
+}
+
+.vpad {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.JSONEditor {
+    position: absolute;
+    top: 0px;
+    right: -300px;
+    bottom: 0px;
+    width: 300px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    transition: .2s right ease-out;
+    z-index: 500;
+}
+
+.JSONEditor.open {
+    right: 0px;
+}
+
+.MindGraph .mgDropzone {
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+    z-index: 1000;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+
+.MindGraph .NodeEditor, .MindGraph .blackbox {
+    display: block;
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    padding: 10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.MindGraph .NodeEditor h3 {
+    font-size: 10px;
+}
+
+.GraphToolbar {
+    background: rgba(0,0,0,0.3);
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    padding: 12px;
+    color: white;
+}
+
+.GraphToolbar h3 {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+
+.cytoscapeDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #444;
+    display: block;
+}

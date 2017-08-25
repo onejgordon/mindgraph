@@ -1,0 +1,194 @@
+{
+  "elements": {
+    "edges": [
+      {
+        "data": {
+          "id": "u8fc1matj6",
+          "source": "self-awareness",
+          "target": "equity"
+        },
+        "group": "edges"
+      },
+      {
+        "data": {
+          "id": "s3isde3z2z",
+          "source": "equity",
+          "target": "altruism"
+        },
+        "group": "edges"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "neuroscience",
+          "name": "Neuroscience",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 660.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "model-building",
+          "name": "Model Building"
+        }
+      },
+      {
+        "data": {
+          "id": "ai",
+          "name": "AI",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 2480.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "machine-learning",
+          "name": "Machine Learning",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 2350.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "collaboration",
+          "name": "Collaboration",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 2220.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "representation",
+          "name": "Representation",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 2090.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "predictive-processing",
+          "name": "Predictive Processing",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1960.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "problem-solving",
+          "name": "Problem Solving",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1830.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "cognitive-architecture",
+          "name": "Cognitive Architecture",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1700.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "logic",
+          "name": "Logic",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 530.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "self-awareness",
+          "name": "Self-awareness",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1440.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "altruism",
+          "name": "Altruism",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1310.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "philosophy",
+          "name": "Philosophy",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1180.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "job-loss",
+          "name": "Job loss",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1050.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "human-computer-interaction",
+          "name": "Human Computer Interaction",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 920.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "democratization",
+          "name": "Democratization",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 790.3693103440123
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "equity",
+          "name": "Equity",
+          "orgPos": {
+            "x": 530.3693103440123,
+            "y": 1570.3693103440123
+          }
+        }
+      }
+    ]
+  },
+  "layout": {
+    "name": "grid",
+    "padding": 10
+  }
+}
