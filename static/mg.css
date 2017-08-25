@@ -25,6 +25,7 @@ label {
 
 .JSONEditor {
     position: absolute;
+    color: gray;
     top: 0px;
     right: -300px;
     bottom: 0px;

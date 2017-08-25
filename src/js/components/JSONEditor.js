@@ -109,11 +109,13 @@ class JSONEditor extends React.Component {
     let {json, open} = this.state
     let cls = "JSONEditor"
     if (open) cls += " open"
-    const SHOW_TEST_LOADER_MENU = false
+    const SHOW_TEST_LOADER_MENU = true
     let any_json = json && json.length > 0
     return (
       <div className={cls}>
         <br/><br/><br/>
+        <p>Open a <a href="http://js.cytoscape.org/" target="_blank">cytoscape.js</a> formatted graph by dragging it into the browser, or paste your JSON data below.</p>
+
         <TextField floatingLabelText="Raw JSON" value={json}
           onChange={this.handleJsonChange} multiLine fullWidth rowsMax={15} />
 
@@ -121,8 +123,7 @@ class JSONEditor extends React.Component {
 
         <div hidden={!SHOW_TEST_LOADER_MENU}>
           <IconMenu iconButtonElement={<IconButton><FontIcon className="material-icons">more_vert</FontIcon> /></IconButton>}>
-            <MenuItem primaryText="Load Test" onClick={this.loadTest} />
-            <MenuItem primaryText="Load Brain" onClick={this.loadBrain} />
+            <MenuItem primaryText="Load Simple Sample" onClick={this.loadTest} />
           </IconMenu>
         </div>
 
