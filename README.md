@@ -1,8 +1,8 @@
 # MindGraph: Simple mind map editor / navigator for people who think in graphs
 
-Graph viz/navigation/editor for minds, topics, networks of any kind.
+Open source webapp for graph viz/navigation/editor for minds, topics, networks of any kind.
 
-Uses the incredible cytoscape.org
+Visualization via cytoscape.org
 
 ## Data Formats
 
@@ -10,7 +10,6 @@ GraphJSON: http://jsongraphformat.info/
 Cytoscape format: http://js.cytoscape.org/#notation/elements-json
 
 ## TODO
-
 
 * Export to GraphJSON
 * Scroll wheel size update (node/edge)
@@ -31,7 +30,7 @@ Cytoscape format: http://js.cytoscape.org/#notation/elements-json
 
 ## Examples
 
-Useful example here http://www.wineandcheesemap.com/demo.js
+Useful example of cytoscape visualizatins here: http://www.wineandcheesemap.com/demo.js
 
 ## Related Tools
 
