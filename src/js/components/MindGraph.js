@@ -80,7 +80,7 @@ class MindGraph extends React.Component {
               'color': '#fff',
               'text-outline-color': '#fff',
               'text-outline-opacity': 0.5,
-              'label': 'data(id)',
+              'label': 'data(name)',
               'width': 'data(size)',
               'height': 'data(size)'
             }
